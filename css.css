@@ -1,0 +1,20 @@
+/* Working method */
+#test {
+    background:
+      /* top, transparent red, faked with gradient */
+      linear-gradient(
+        rgba(86, 3, 239, 0.45),
+        rgba(4, 113, 168, 0.45)
+      ),
+      /* bottom, image */
+      url(https://picsum.photos/1920/1080);
+      background-size: cover;
+      background-attachment: fixed;
+      background-position:cover;
+  }
+.circle{
+  width: 10px !important;
+  height: 10px !important;
+  aspect-ratio: 1 !important;
+  border-radius: 50% !important;
+}

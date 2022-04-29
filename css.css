@@ -12,6 +12,11 @@
       background-attachment: fixed;
       background-position:cover;
   }
+  .rounded-circle{
+    width: 30em;
+    height: 30em;
+    border-radius: 50%;
+}
 .circle{
   width: 10px !important;
   height: 10px !important;
